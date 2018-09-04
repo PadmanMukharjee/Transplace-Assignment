@@ -5,6 +5,7 @@ import {RouterModule} from '@angular/router';
 // This Module's Components
 import { ProfileEditorComponent } from './profile-editor.component';
 import {routing} from './profile-editor.routing';
+import {AddMR} from './name.pipe';
 
 @NgModule({
     imports: [
@@ -14,6 +15,7 @@ import {routing} from './profile-editor.routing';
     ],
     declarations: [
         ProfileEditorComponent,
+        AddMR
     ]
 })
 export class ProfileEditorModule {
